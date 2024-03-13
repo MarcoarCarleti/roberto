@@ -5,5 +5,6 @@ PI = 3.14
 r = float(input("qual o valor de r? "))
 
 a = (4 * PI * r**3) / 3
+v = 4 * PI * r**2
 
-print("A área da esfera é: ", a)
+print("A área da esfera é: ", a, " O volume da esfera é: ", v)
