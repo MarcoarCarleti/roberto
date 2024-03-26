@@ -1,0 +1,1 @@
+#Desenvolva um algoritmo para calcular o valor das raízes de uma equação do 2º grau (Ax2 + Bx + C), sabendo-se que: Delta = B2 – 4AC Raízes = (- B + SQRT(Delta)) / (2A), (- B - SQRT(Delta)) / (2A)Os valores A, B e C deverão ser fornecidos pelo usuário. SQRT() – Função para cálculo de raiz quadrada.#
