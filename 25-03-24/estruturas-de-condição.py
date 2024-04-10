@@ -4,27 +4,27 @@ thirdValue = int(input("Insira o terceiro valor: "))
 
 allValuesInCrescentOrder = []
 
-if firstValue >= secondValue & secondValue >= thirdValue:
+if firstValue >= secondValue and secondValue >= thirdValue:
     allValuesInCrescentOrder.append(thirdValue)
     allValuesInCrescentOrder.append(secondValue)
     allValuesInCrescentOrder.append(firstValue)
     
-elif secondValue >= firstValue & secondValue >= thirdValue:
+elif secondValue >= firstValue and secondValue >= thirdValue:
     allValuesInCrescentOrder.append(thirdValue)
     allValuesInCrescentOrder.append(firstValue)
     allValuesInCrescentOrder.append(secondValue)
     
-elif thirdValue >= firstValue & firstValue >= secondValue:
+elif thirdValue >= firstValue and firstValue >= secondValue:
     allValuesInCrescentOrder.append(secondValue)
     allValuesInCrescentOrder.append(firstValue)
     allValuesInCrescentOrder.append(thirdValue)
     
-elif thirdValue >= secondValue & secondValue >= firstValue:
+elif thirdValue >= secondValue and secondValue >= firstValue:
     allValuesInCrescentOrder.append(firstValue)
     allValuesInCrescentOrder.append(secondValue)
     allValuesInCrescentOrder.append(thirdValue)
     
-elif secondValue >= firstValue & firstValue <= thirdValue:
+elif secondValue >= firstValue and firstValue <= thirdValue:
     allValuesInCrescentOrder.append(secondValue)
     allValuesInCrescentOrder.append(thirdValue)
     allValuesInCrescentOrder.append(firstValue)
